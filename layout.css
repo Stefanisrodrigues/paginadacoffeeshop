@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 1 1 100vw;
+	margin: 3px;
+}
+
+header, nav, main, aside, footer {
+	background: rgb(251, 223, 171);
+	display: flex;
+	margin: 3px;
+	flex: 1 1 100vw;
+}
+
+header {
+	width: 100%;
+    height: 7vw;
+	display: flex;
+}
+
+header #logo {
+	display: flex;
+	
+	background: rgb(251, 223, 171);
+	justify-content: center;
+	align-items: center;
+	font-size: larger;
+	margin: 20px;
+	padding: 10px;
+	font-size:  1.8rem;
+    letter-spacing: 0.4rem;
+    cursor: pointer;
+    font-weight: 800;
+	font-family: "Alfa Slab One", serif;
+
+}
+
+#openMenu, #closeMenu {
+	border: none;
+	background: none;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 0px 5px 0px 5px;
+	cursor: pointer;
+	display: none;
+}
+
+nav {
+	justify-content: center;
+	align-items: center;
+	font-family: "Alfa Slab One", serif;
+}
+
+nav a {
+	margin: 0 3%;
+	font-size: 15pt;
+}
+
+a {
+	padding: 10px;
+	color: yellow;
+	font-weight: bold;
+	display: inline-block;
+	text-decoration: none;
+}
+
+a:hover{
+	background-color: rgb(241, 136, 8);
+	font-size: 200;
+}
+
+.social-midia-buttons {
+    display: flex;
+	align-items: center;
+    gap: 24px;
+  }
+
+main {
+	background: rgb(251, 223, 171);
+	display: flex;
+	margin: 3px;
+	flex: 1 1 100vw;
+
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.home-title {
+    position: absolute;
+    padding: 30px;
+    background-color: rgb(178, 99, 42);
+    color: #fff;
+    font-size: 32px;
+	margin-top: 300px;
+	border-radius: 10px;
+}
+
+.home-bg-image {
+    width: 100%;
+}
+
+aside {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+		font-family: "Arial";
+		gap:20px;
+     }
+
+	.card {
+		background-color: #fff;
+		width: 185px;
+		height: 280px;
+		border-radius: 10px;
+		box-shadow: 4px 4px 10px rgba(128, 128, 128, 0.783);
+	  }
+
+	  .card img {
+		width: 60%;
+		height: 150px;
+		border-top-left-radius: 12px;
+		border-top-right-radius: 12px;
+		margin-left: 20%;
+		margin-top: 5%;
+	  }
+
+	  .card div {
+		display: flex;
+		flex-direction:column;
+		justify-content: center;
+		align-items: center;
+		gap: 2px;
+		height: 40%;
+		object-fit: cover;
+	  }
+	  .card h1 {
+		font-size: 1.2rem;
+	  }
+	  .card h2 {
+		font-size:x-small;
+		color: #5c5c5ceb;
+		align-items: center;
+		justify-content: center;
+		object-fit: cover;
+	  }
+
+	  .card:hover {
+		background-color: #eb860b;
+		cursor: pointer;
+	  }
+span{
+	font-size:bold larger;
+	color: #1d1d1d;
+}
+
+.home-title2{
+	position:absolute;
+    padding: 30px;
+    background-color: rgb(178, 99, 42);
+    color: #fff;
+    font-size: 32px;
+	margin-bottom: 500px;
+	border-radius: 10px;
+
+}
+
+.home-title1{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin-top: 40px;
+	background-color: rgb(178, 99, 42);
+
+ }
+
+.grid-images{
+    margin-top: 120px;
+    padding: 90px;
+    display:flex;
+    justify-content: center;
+    object-fit: cover;
+    z-index: 3;
+    background: rgb(251, 223, 171);
+  }
+ .grid1:hover{
+  transform: translateY(-10px);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  }
+ .grid2:hover{
+  transform: translateY(-10px);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  }
+ .grid3:hover{
+  transform: translateY(-10px);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  }
+ .grid4:hover{
+  transform: translateY(-10px);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  }
+  .grid1{
+    width:90%;
+    height:70%;
+    padding-right: 10%;
+  }
+  .grid2{
+    width:85%;
+    height:70%;
+    padding: 0%;
+  }
+  .grid3{
+    width:85%;
+    height:70%;
+    padding: 0%;
+  }
+  .grid4{
+    width:85%;
+    height:70%;
+    padding: 0%;
+  }
+
+footer {
+    background-color:rgb(172, 111, 67);
+    color: rgb(5, 5, 5);
+    padding: 20px 0;
+    font-size: 1.0rem;
+	font-family: "Alfa Slab One", serif;
+}
+
+.social-midia-button {
+    display: flex;
+    gap: 18px;
+  }
+
+  .social-midia-button a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    background-color: #fff;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    text-decoration:none;
+    color: #1d1d1d;
+    box-shadow: 0px 0px 12px 4px rgb(0, 0, 0, 01);
+    transition: box-shadow .3s ease;
+  }
+
+  .social-midia-button a:hover {
+    box-shadow: 0px 0px 12px 8px rgb(0, 0, 0, 01);
+  }
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 0;
+    padding: 20px;
+}
+
+.footer-form, .footer-contact {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer-form h3, .footer-contact h3 {
+    margin-bottom: 10px;
+}
+
+.footer-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-form label {
+    margin-bottom: 5px;
+}
+
+.footer-form input {
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 1.4rem;
+	border-radius: 10px;
+}
+
+.footer-form button {
+    padding: 10px;
+    font-size: 1.6rem;
+    background-color: rgb(85, 46, 2);
+    border: none;
+    cursor: pointer;
+	border-radius: 10px;
+	font-family: "Alfa Slab One", serif;
+}
+
+.footer-contact p {
+    margin-bottom: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+@media only screen and (max-width: 717px) {
+	#openMenu, #closeMenu {
+		display: block;
+	}
+
+	#openMenu {
+		margin-left: auto;
+	}
+
+	#closeMenu {
+		position: fixed;
+		right: 15px;
+		top: 15px;
+	}
+
+	nav {
+		position: fixed;
+		flex-direction: column;
+		width: 100vw;
+		height: 100vh;
+		background: rgba(255, 255, 255, 0.8);	
+		justify-content: center;
+		align-items: center;
+		margin: 0;
+		display: none;
+		opacity: 0;
+		transition: 0.3s;
+	}
+
+	nav a {
+		margin: 3%;
+	}
+}
